@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="166.0" prefWidth="312.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.gtmf.controller.MainLayoutController">
+   <children>
+      <Label layoutX="25.0" layoutY="28.0" text="Digite um Texto" />
+      <TextField fx:id="tf_input" layoutX="25.0" layoutY="61.0" prefHeight="22.0" prefWidth="243.0" GridPane.columnIndex="1" />
+      
+      <Button defaultButton="true" layoutX="123.0" layoutY="101.0" mnemonicParsing="false" onAction="#handleOk" prefHeight="22.0" prefWidth="68.0" text="OK" />
+      <Button layoutX="200.0" layoutY="101.0" mnemonicParsing="false" onAction="#handleExit" prefHeight="22.0" prefWidth="68.0" text="Sair" />
+       
+   </children>
+</AnchorPane>
